@@ -31,7 +31,7 @@
 ## 📌 문제
 ||주제|문제 번호|문제|난이도|
 |:-:|:-:|:-:|:-:|:-:|
-|<b>Week 1</b></br>(23.08.31 ~ )|스택|10773 | [제로](https://www.acmicpc.net/problem/10773) |<img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/>|
+|<b>Week 1</b></br>(23.08.31 ~ )|스택|2493 | [탑](https://www.acmicpc.net/problem/2493) |<img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
 |||2504 | [괄호의 값](https://www.acmicpc.net/problem/2504) |  <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
 |<b>Week 2-1</b></br>(23.09.04 ~ )|큐|2164 | [카드2](https://www.acmicpc.net/problem/2164) |<img src="https://static.solved.ac/tier_small/7.svg" height="25" align="center"/>|
 ||연결 리스트|5397 | [키로거](https://www.acmicpc.net/problem/5397) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/>|
