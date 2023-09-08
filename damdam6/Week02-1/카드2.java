@@ -8,6 +8,7 @@ import java.util.Queue;
 
 public class BAEK2164 {
 
+
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		Queue<Integer> qu = new ArrayDeque<>();
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
