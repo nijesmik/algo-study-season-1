@@ -1,4 +1,4 @@
-# ✨SSAFY_Algorithm_Study✨
+# SSAFY_Algorithm_Study
 
 ## 📌 규칙
 1. 매주 월요일, 목요일에 주제에 맞는 백준 2문제 풀기
@@ -46,7 +46,9 @@
 ||연결 리스트|5397 | [키로거](https://www.acmicpc.net/problem/5397) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/>|
 |<b>Week 2-2</b></br>(23.09.07 ~ )|트리|1068 | [트리](https://www.acmicpc.net/problem/1068) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
 |||15681 | [트리와 쿼리](https://www.acmicpc.net/problem/15681) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
-|<b>Week 3-1</b></br>(23.09.11 ~ )|그리디|1068 | [주식](https://www.acmicpc.net/problem/11501) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/>|
-|||15681 | [선 긋기](https://www.acmicpc.net/problem/2170) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
-|<b>Week 3-2</b></br>(23.09.14 ~ )|이분탐색|1068 | [과자 나눠주기](https://www.acmicpc.net/problem/16401) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/>|
-|||15681 | [멀티버스 Ⅱ](https://www.acmicpc.net/problem/18869) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
+|<b>Week 3-1</b></br>(23.09.11 ~ )|그리디| 11501 | [주식](https://www.acmicpc.net/problem/11501) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/>|
+||| 2170 | [선 긋기](https://www.acmicpc.net/problem/2170) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
+|<b>Week 3-2</b></br>(23.09.14 ~ )|이분탐색| 16401 | [과자 나눠주기](https://www.acmicpc.net/problem/16401) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/>|
+||| 18869 | [멀티버스 Ⅱ](https://www.acmicpc.net/problem/18869) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
+|<b>Week 4-1</b></br>(23.09.18 ~ )| 백트래킹 | 6603 | [로또](https://www.acmicpc.net/problem/6603) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/>|
+||| 16987 | [계란으로 계란치기](https://www.acmicpc.net/problem/16987) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
