@@ -11,10 +11,11 @@ public class 과자_나눠주기 {
 		m = Integer.parseInt(st.nextToken());
 		st = new StringTokenizer(br.readLine());
 		snacks = new Integer[m];
-		for (int i = 0; i < m; i++)
+		int start = 1, end = 0, result = 0;
+		for (int i = 0; i < m; i++) {
 			snacks[i] = Integer.parseInt(st.nextToken());
-		Arrays.sort(snacks);
-		int start = 1, end = snacks[m-1], result = 0;
+			end = Math.max(end, snacks[i]);
+		}
 		while (start <= end) {
 			int mid = (start + end) / 2;
 			if (check(mid)) {
@@ -27,7 +28,7 @@ public class 과자_나눠주기 {
 	}
 	static boolean check(int cmp) {
 		int cnt = 0;
-		for (int i = 0; i < n && i < m; i++) {
+		for (int i = 0; i < m; i++) {
 			cnt += snacks[m-1-i] / cmp;
 			if (cnt >= n) return true;
 		}
