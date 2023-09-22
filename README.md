@@ -1,7 +1,7 @@
 # SSAFY_Algorithm_Study
 
 ## 📌 규칙
-1. 매주 월요일, 목요일에 주제에 맞는 백준 2문제 풀기
+1. 매주 월요일, 목요일에 주제에 맞는 백준 2문제 풀기 + 프로그래머스 1문제
 2. 폴더 및 파일명
 
 	```
@@ -56,3 +56,8 @@
 ||| 16987 | [계란으로 계란치기](https://www.acmicpc.net/problem/16987) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
 |<b>Week 5-1</b></br>(23.09.25 ~ )| 그래프 | 5567 | [결혼식](https://www.acmicpc.net/problem/5567) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/>|
 ||| 2660 | [회장뽑기](https://www.acmicpc.net/problem/2660) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
+
+## 📌 프로그래머스
+||문제|난이도|
+|:-:|:-:|:-:|
+|<b>Week 04</b> | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | Level 2 |
