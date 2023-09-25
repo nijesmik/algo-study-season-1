@@ -16,7 +16,7 @@
 	${태그} : (${Week_No}) ${문제 번호} ${문제명}
 
 	- 예 :	⬆️ Add : (Week02-2) 15681 트리와_쿼리
-			⬆️ Add : (Week02) Programmers 타켓_넘버 
+		⬆️ Add : (Week02) Programmers 타켓_넘버 
 	```
 	🔥 문제마다 하나씩 커밋 해주세요! (문제 한꺼번에 커밋 금지)
 	
@@ -64,3 +64,5 @@
 ||문제|난이도|
 |:-:|:-:|:-:|
 |<b>Week 04</b> | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | Level 2 |
+|<b>Week 05</b> | [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369) | Level 2 |
+
