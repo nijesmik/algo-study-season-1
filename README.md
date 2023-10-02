@@ -28,6 +28,7 @@
 	| ✏️ Comment | 주석 추가 (코드 변경X) |
 	| 📝 Docs | 문서 수정 |
 	| 🔀 Merge | Merge |
+	| ♻️ Misc | 기타 |
 
 4. PR
 
@@ -64,7 +65,7 @@
 ||| 16987 | [계란으로 계란치기](https://www.acmicpc.net/problem/16987) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
 |<b>Week 5</b></br>(23.09.25 ~ )| 그래프 | 5567 | [결혼식](https://www.acmicpc.net/problem/5567) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/>|
 ||| 2660 | [회장뽑기](https://www.acmicpc.net/problem/2660) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
-|<b>Week 6-1</b></br>(23.09.25 ~ )| 위상 정렬 | 2623 | [음악프로그램](https://www.acmicpc.net/problem/2623) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
+|<b>Week 6-1</b></br>(23.10.02 ~ )| 위상 정렬 | 2623 | [음악프로그램](https://www.acmicpc.net/problem/2623) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
 ||| 21276 | [계보 복원가 호석](https://www.acmicpc.net/problem/21276) | <img src="https://static.solved.ac/tier_small/14.svg" height="25" align="center"/>|
 
 
