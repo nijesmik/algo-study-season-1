@@ -1,4 +1,4 @@
-package Week05;
+package nijesmik.Week05;
 import java.util.*;
 
 public class 회장뽑기 {
