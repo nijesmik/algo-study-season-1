@@ -18,9 +18,8 @@
 	- 예 :	⬆️ Add : (Week02-2) 15681 트리와_쿼리
 		⬆️ Add : (Week02) Programmers 타켓_넘버 
 	```
-	🔥 문제마다 하나씩 커밋 해주세요! (문제 한꺼번에 커밋 금지)
-	
-	🔥 프로그래머스 문제는 문제 번호 대신 `Programmers`로 커밋
+	🔥 문제마다 하나씩 커밋 해주세요! (문제 한꺼번에 커밋 금지) <br>
+	🔥 프로그래머스 문제는 `문제 번호` 대신 `Programmers`로 커밋
 
 	|<center>태그|<center>설명|
 	|-|-|
@@ -29,6 +28,7 @@
 	| ✏️ Comment | 주석 추가 (코드 변경X) |
 	| 📝 Docs | 문서 수정 |
 	| 🔀 Merge | Merge |
+	| ♻️ Misc | 기타 |
 
 4. PR
 
@@ -39,6 +39,12 @@
 	```
 	🔥 매주 월요일에 한꺼번에 PR 합니다!
 
+5. 벌금
+
+	⚠️ 못 푼 문제당 `2000원` ⚠️ 
+
+	🔥 PR을 기준으로 하므로 다 못 풀었어도 부분 제출이라도 꼭 해주세요! <br>
+	🔥 월요일 23:59까지 제출
 
 ## 📌 문제
 ||주제|문제 번호|문제|난이도|
@@ -57,8 +63,11 @@
 ||| 7569 | [토마토](https://www.acmicpc.net/problem/7569) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
 |<b>Week 4-2</b></br>(23.09.21 ~ )| 백트래킹 | 6603 | [로또](https://www.acmicpc.net/problem/6603) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/>|
 ||| 16987 | [계란으로 계란치기](https://www.acmicpc.net/problem/16987) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
-|<b>Week 5-1</b></br>(23.09.25 ~ )| 그래프 | 5567 | [결혼식](https://www.acmicpc.net/problem/5567) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/>|
+|<b>Week 5</b></br>(23.09.25 ~ )| 그래프 | 5567 | [결혼식](https://www.acmicpc.net/problem/5567) | <img src="https://static.solved.ac/tier_small/9.svg" height="25" align="center"/>|
 ||| 2660 | [회장뽑기](https://www.acmicpc.net/problem/2660) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
+|<b>Week 6-1</b></br>(23.10.02 ~ )| 위상 정렬 | 2623 | [음악프로그램](https://www.acmicpc.net/problem/2623) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
+||| 21276 | [계보 복원가 호석](https://www.acmicpc.net/problem/21276) | <img src="https://static.solved.ac/tier_small/14.svg" height="25" align="center"/>|
+
 
 ## 📌 프로그래머스
 ||문제|난이도|
