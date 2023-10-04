@@ -67,6 +67,9 @@
 ||| 2660 | [회장뽑기](https://www.acmicpc.net/problem/2660) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
 |<b>Week 6-1</b></br>(23.10.02 ~ )| 위상 정렬 | 2623 | [음악프로그램](https://www.acmicpc.net/problem/2623) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
 ||| 21276 | [계보 복원가 호석](https://www.acmicpc.net/problem/21276) | <img src="https://static.solved.ac/tier_small/14.svg" height="25" align="center"/>|
+|<b>Week 6-2</b></br>(23.10.05 ~ )| BFS | 13549 | [숨바꼭질 3](https://www.acmicpc.net/problem/13549) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
+||| 2573 | [빙산](https://www.acmicpc.net/problem/2573) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
+
 
 
 ## 📌 프로그래머스
@@ -74,4 +77,5 @@
 |:-:|:-:|:-:|
 |<b>Week 04</b> | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | Level 2 |
 |<b>Week 05</b> | [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369) | Level 2 |
+|<b>Week 06</b> | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971) | Level 2 |
 
