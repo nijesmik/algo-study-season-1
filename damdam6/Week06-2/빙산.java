@@ -28,38 +28,61 @@ public class BAEK2573 {
 		for (int i = 0; i < N; i++) {
 			st = new StringTokenizer(bf.readLine());
 			for (int j = 0; j < M; j++) {
-				sea[i][j] = new block(i,j,Integer.parseInt(st.nextToken()));
+				sea[i][j] = new block(i, j, Integer.parseInt(st.nextToken()));
 			}
 		}
 
 		year = 0;
-
-		while (chkBfs() == -1) {
+		int answer = -1;
+		while (answer == -1) {
 
 			year++;
+
 			for (int i = 0; i < N; i++) {
 				for (int j = 0; j < M; j++) {
 					sea[i][j].vt = false;
+					sea[i][j].chkzero = false;
+				}
+			}
+			for (int i = 0; i < N; i++) {
+				for (int j = 0; j < M; j++) {
+
 					if (sea[i][j].val == 0)
 						continue;
 
 					for (int k = 0; k < 4; k++) {
-						if(sea[i][j].val==0)break;
 						nx = i + dx[k];
-					ny = j + dy[k];
-						if (nx < 0 || nx >= N || ny < 0 || ny >= M || sea[nx][ny].val != 0)
+						ny = j + dy[k];
+						if (nx < 0 || nx >= N || ny < 0 || ny >= M || sea[nx][ny].val != 0 || sea[nx][ny].chkzero)
 							continue;
 						sea[i][j].val--;
+
+						if (sea[i][j].val == 0) {
+							sea[i][j].chkzero = true;
+							break;
+						}
 					}
 				}
 
 			}
-			
+			answer = chkBfs();
+
+//			System.out.println("----");
+//			System.out.println(year);
+//			for (int i = 0; i < N; i++) {
+//				System.out.println();
+//				for (int j = 0; j < M; j++) {
+//					System.out.print(sea[i][j].val + " ");
+//				}
+//			}
+//			System.out.println();
+//			System.out.println("----");
 		}
-		
-		System.out.println(chkBfs());
+
+		System.out.println(answer);
 
 	}
+
 	static int nx;
 	static int ny;
 	static int year;
@@ -69,19 +92,18 @@ public class BAEK2573 {
 	static // -1이면 안됨 -> 시간 지나는거 살펴보기
 	int chkBfs() {
 
-
 		Deque<block> qu = new ArrayDeque<>();
 		allfor: for (int i = 0; i < N; i++) {
 			for (int j = 0; j < M; j++) {
 				if (sea[i][j].val == 0)
 					continue;
-			
+
 				qu.add(sea[i][j]);
+				sea[i][j].vt = true;
 				break allfor;
 			}
 		}
 
-		
 		if (qu.isEmpty()) {
 			return 0;
 		}
@@ -89,15 +111,15 @@ public class BAEK2573 {
 		block tmp;
 		while (!qu.isEmpty()) {
 			tmp = qu.poll();
-			sea[tmp.x][tmp.y].vt = true;
 
 			for (int i = 0; i < 4; i++) {
 				nx = tmp.x + dx[i];
 				ny = tmp.y + dy[i];
 
-				if (nx < 0 || nx >= N || ny < 0 || ny >= M || sea[nx][ny].val == 0||sea[nx][ny].vt)
+				if (nx < 0 || nx >= N || ny < 0 || ny >= M || sea[nx][ny].val == 0 || sea[nx][ny].vt)
 					continue;
 				qu.add(sea[nx][ny]);
+				sea[nx][ny].vt = true;
 
 			}
 
@@ -105,7 +127,7 @@ public class BAEK2573 {
 
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < M; j++) {
-				if (sea[i][j].val!= 0 &&!sea[i][j].vt) {
+				if (sea[i][j].val != 0 && !sea[i][j].vt) {
 					return year;
 				}
 
@@ -120,12 +142,14 @@ public class BAEK2573 {
 		int y;
 		int val;
 		boolean vt;
+		boolean chkzero;
 
 		public block(int x, int y) {
 			super();
 			this.x = x;
 			this.y = y;
 		}
+
 		public block(int x, int y, int val) {
 			this.x = x;
 			this.y = y;
@@ -133,7 +157,7 @@ public class BAEK2573 {
 		}
 
 		public String toString() {
-			return x+" "+y;
+			return this.val + "";
 		}
 
 	}
