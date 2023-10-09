@@ -21,10 +21,11 @@
 	🔥 문제마다 하나씩 커밋 해주세요! (문제 한꺼번에 커밋 금지) <br>
 	🔥 프로그래머스 문제는 `문제 번호` 대신 `Programmers`로 커밋
 
-	|<center>태그|<center>설명|
-	|-|-|
+	|태그|설명|
+	|---|---|
 	| ⬆️ Add | 코드 제출 |
-	| 🔨 Refactor | 코드 수정 |
+	| 🛠️ Fix | 틀린 부분 수정 |
+	| 🔨 Refactor | 코드 리팩토링 |
 	| ✏️ Comment | 주석 추가 (코드 변경X) |
 	| 📝 Docs | 문서 수정 |
 	| 🔀 Merge | Merge |
@@ -69,6 +70,8 @@
 ||| 21276 | [계보 복원가 호석](https://www.acmicpc.net/problem/21276) | <img src="https://static.solved.ac/tier_small/14.svg" height="25" align="center"/>|
 |<b>Week 6-2</b></br>(23.10.05 ~ )| BFS | 13549 | [숨바꼭질 3](https://www.acmicpc.net/problem/13549) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
 ||| 2573 | [빙산](https://www.acmicpc.net/problem/2573) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
+|<b>Week 7-1</b></br>(23.10.09 ~ )| BFS | 10026 | [적록색약](https://www.acmicpc.net/problem/10026) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
+||| 5427 | [불](https://www.acmicpc.net/problem/5427) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
 
 
 
