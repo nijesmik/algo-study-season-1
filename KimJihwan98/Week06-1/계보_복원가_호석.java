@@ -1,10 +1,9 @@
-package Baekjoon;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -20,6 +19,7 @@ class Node {
 	}
 }
 public class 계보_복원가_호석 {
+	static StringBuilder sb;
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
@@ -56,19 +56,23 @@ public class 계보_복원가_호석 {
 				q.offer(names[i]);
 			}
 		}
-		System.out.println(cnt);
+        sb = new StringBuilder();
+		sb.append(cnt + "\n");
 		for(int i = 0; i < cnt; i++) {
 			Node tmp = q.poll();
-			System.out.print(tmp.name + " ");
+            sb.append(tmp.name + " ");
 			q.offer(tmp);
 		}
-		System.out.println();
+        sb.append("\n");
 		while(!q.isEmpty()) {
 			Node now = q.poll();
-			for(int i = 0; i < now.desc.size(); i++) {
+			int loopsize = now.desc.size();
+			for(int i = 0; i < loopsize; i++) {
 				String jason = now.desc.get(i);
 				if(--names[map.get(jason)].degree != 0) {
 					now.desc.remove(jason);
+					loopsize--;
+					i--;
 				} else {
 					q.offer(names[map.get(jason)]);
 				}
@@ -77,12 +81,13 @@ public class 계보_복원가_호석 {
 		
 		
 		for(int i = 0; i < N; i++) {
-			System.out.print(names[i].name + " " + names[i].desc.size() + " ");
-			names[i].desc.sort(String::compareTo);
+            sb.append(names[i].name).append(" ").append(names[i].desc.size()).append(" ");
+			Collections.sort(names[i].desc);
 			names[i].desc.forEach(a->{
-				System.out.print(a+" ");
+				sb.append(a).append(" ");
 			});
-			System.out.println();
+            sb.append("\n");
 		}
+        System.out.print(sb);
 	}
 }
