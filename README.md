@@ -72,6 +72,8 @@
 ||| 2573 | [빙산](https://www.acmicpc.net/problem/2573) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
 |<b>Week 7-1</b></br>(23.10.09 ~ )| BFS | 10026 | [적록색약](https://www.acmicpc.net/problem/10026) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
 ||| 5427 | [불](https://www.acmicpc.net/problem/5427) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
+|<b>Week 7-2</b></br>(23.10.12 ~ )| 시뮬레이션 | 14503 | [로봇 청소기](https://www.acmicpc.net/problem/14503) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
+||| 3190 | [뱀](https://www.acmicpc.net/problem/3190) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
 
 
 
@@ -81,4 +83,5 @@
 |<b>Week 04</b> | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | Level 2 |
 |<b>Week 05</b> | [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369) | Level 2 |
 |<b>Week 06</b> | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971) | Level 2 |
+|<b>Week 07</b> | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) | Level 2 |
 
