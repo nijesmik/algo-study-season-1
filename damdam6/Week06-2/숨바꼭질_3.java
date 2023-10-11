@@ -1,15 +1,15 @@
-package DATE1009;
+package DATE1010;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class BAEK13549 {
+public class BAEK13549_DP {
 	
 	static int N;
 	static int K;
+	static int[] arr;
 	
 	public static void main(String[] args) throws Exception {
 
@@ -22,59 +22,33 @@ public class BAEK13549 {
 		N = Integer.parseInt(st.nextToken());
 		K = Integer.parseInt(st.nextToken());
 		
-		Deque<pos> qu = new ArrayDeque<>();
+		arr = new int[100001];
+		Arrays.fill(arr, Integer.MAX_VALUE);
+		arr[N] =0;
 		
-		int[] vt = new int[100001];
-		qu.add(new pos(N,0,true));
-		vt[N] = 1;
-		pos tmp = null;
-all:		while(!qu.isEmpty()) {
-			
-			tmp = qu.poll();
-			
-			if(tmp.loc == K)break;
-			
-			int loc = tmp.loc;
-			
-			while(loc*2 <=100000 && vt[loc*2]!=1) {
-				if(loc*2 == K) {
-					break all;			
-				}
-				qu.add(new pos(loc*2,tmp.time,true));
-				loc = loc*2;
-				vt[loc] = 1;
-			}
-			
-			//?? 아랫부분 순서를 바꾸면 틀림;;; 왜 그런지 확인 필요함
-			if(tmp.loc-1>=0 && vt[tmp.loc-1]!=1) {
-				vt[tmp.loc-1] = 1;
-				qu.add(new pos(tmp.loc-1,tmp.time, false));
-			}
-			
-			if(tmp.loc+1<=100000 && vt[tmp.loc+1]!=1) {
-				vt[tmp.loc+1] = 1;
-				qu.add(new pos(tmp.loc+1,tmp.time, false));
-			}
-
-				
+		//현재 점보다 뒤 -> 뒤로 가는 방법 밖에 없음
+		for(int i=N-1;i>=0;i--) {
+			arr[i] = N-i;
 		}
 		
-		System.out.println(tmp.time);
+		// arr[a]
+		//짝수일 때 -> arr[a/2] or arr[a-1]+1
+		//홀수일 때 -> arr[(a-1)/2]+1 or arr[(a+1)/2]+1 or arr[a-1]+1
+		
+		for(int i=N+1;i<100001;i++) {
+			if(i%2==0) {
+				
+				arr[i] = Math.min(arr[i/2], arr[i-1]+1);
+				
+			}else {
+				arr[i] = Math.min(arr[i-1]+1, arr[(i-1)/2]+1);
+				arr[i] = Math.min(arr[i], arr[(i+1)/2]+1);
+			}
+		}
+		System.out.println(arr[K]);
+		
 	}
 	
-	static class pos{
-		int time;
-		int loc;
-		
-		//true면 그대로
-		 public pos(int loc, int time, boolean tf){
-			this.loc = loc;
-			if(tf) {
-				this.time = time;
-			}else {
-				this.time = time+1;
-			}
-		}
-	}
+	
 
 }
