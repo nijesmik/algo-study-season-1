@@ -63,29 +63,9 @@ class Solution {
     
         }
         
-        int cnt2 =0;
+        int cnt2 = n-cnt;
         
-        for(int i =1;i<n+1;i++ ){
-            if(vt[i]!=1){
-                qu.add(i);
-                vt[i] = 1;
-                break;
-            }
-        }
-        
-        while(!qu.isEmpty()){
-            
-            now = qu.poll();
-            cnt2++;
-            for(int a : link[now]){
-                if(vt[a]!=1){
-                    vt[a]=1;
-                    qu.add(a);
-                }
-            }
-    
-        }
-        //System.out.println(cnt+" "+cnt2);
+       
         return Math.abs(cnt-cnt2);
         
     }
