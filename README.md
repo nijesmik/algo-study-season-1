@@ -1,8 +1,7 @@
-# SSAFY_Algorithm_Study
+# GROUND RULE
 
-## 📌 규칙
-1. 매주 월요일, 목요일에 주제에 맞는 백준 2문제 풀기 + 프로그래머스 1문제
-2. 폴더 및 파일명
+## 📌 Convention
+1. 폴더 및 파일명
 
 	```
 	${아이디}/${Week_No}/${문제명}.java
@@ -10,7 +9,7 @@
 	- 예 : nijesmik/Week02-2/트리와_쿼리.java
 	```
 	🔥 공백은 `_`로 대체하여 입력해주세요!
-3. Commit
+2. Commit
 
 	```
 	${태그} : (${Week_No}) ${문제 번호} ${문제명}
@@ -31,7 +30,7 @@
 	| 🔀 Merge | Merge |
 	| ♻️ Misc | 기타 |
 
-4. PR
+3. PR
 
 	```
 	[${아이디}] ${Week_No} PR
@@ -40,7 +39,10 @@
 	```
 	🔥 매주 월요일에 한꺼번에 PR 합니다!
 
-5. 벌금
+## 📌 규칙
+1. 매주 월요일, 목요일에 주제에 맞는 백준 2문제 풀기 + 프로그래머스 1문제
+
+2. 벌금
 
 	⚠️ 못 푼 문제당 `2000원` ⚠️ 
 
@@ -74,6 +76,8 @@
 ||| 5427 | [불](https://www.acmicpc.net/problem/5427) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
 |<b>Week 7-2</b></br>(23.10.12 ~ )| 시뮬레이션 | 14503 | [로봇 청소기](https://www.acmicpc.net/problem/14503) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
 ||| 3190 | [뱀](https://www.acmicpc.net/problem/3190) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
+|<b>Week 8-1</b></br>(23.10.16 ~ )| 최소 신장 트리 | 16398 | [행성 연결](https://www.acmicpc.net/problem/16398) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
+||| 13418 | [학교 탐방하기](https://www.acmicpc.net/problem/13418) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
 
 
 
