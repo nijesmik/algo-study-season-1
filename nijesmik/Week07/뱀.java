@@ -1,19 +1,12 @@
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-import java.util.Scanner;
+package nijesmik.Week07;
+import java.util.*;
 
-/**
- * 뱀
- */
 public class 뱀 {
 	static class Command {
 		int time, rotate;
 		Command (int t, char r) {
 			time = t;
-			if (r == 'L') rotate = -1;
+			if (r == 'L') rotate = 3;
 			else rotate = 1;
 		}
 	}
@@ -21,7 +14,7 @@ public class 뱀 {
 	static int n;
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		n = sc.nextInt();
+		n = sc.nextInt()+1;
 		boolean[][] apple = new boolean[n][n];
 		int k = sc.nextInt();
 		for (int i = 0; i < k; i++) {
@@ -33,25 +26,26 @@ public class 뱀 {
 			cmds.add(new Command(sc.nextInt(), sc.next().charAt(0)));
 		}
 		snake = new ArrayDeque<>();
-		snake.add(new int[]{0, 0});
+		snake.add(new int[]{1, 1});
 		int[] dr = {-1, 0, 1, 0};
 		int[] dc = {0, 1, 0, -1};
 		int time = 0, dir = 1;
 		while (true) {
+			if (!cmds.isEmpty() && cmds.peek().time == time) {
+				dir = (dir + cmds.poll().rotate) % 4;
+			}
 			time++;
 			int[] head = snake.peekLast();
 			int nr = head[0]+dr[dir], nc = head[1]+dc[dir];
 			if (!check(nr, nc)) break;
 			if (!apple[nr][nc]) snake.poll();
+			else apple[nr][nc] = false;
 			snake.add(new int[]{nr, nc});
-			if (!cmds.isEmpty() && cmds.peek().time == time) {
-				dir = (dir + cmds.poll().rotate + 4) % 4;
-			}
 		}
 		System.out.println(time);
 	}
 	static boolean check(int r, int c) {
-		if (r < 0 || r >= n || c < 0 || c >= n)
+		if (r < 1 || r >= n || c < 1 || c >= n)
 			return false;
 		for (int[] body : snake) {
 			if (r == body[0] && c == body[1])
