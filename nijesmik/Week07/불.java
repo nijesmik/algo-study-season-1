@@ -1,3 +1,4 @@
+package nijesmik.Week07;
 import java.util.*;
 
 public class 불 {
@@ -37,20 +38,7 @@ public class 불 {
 		int time = 1;
 		int[] cur;
 		while (!move.isEmpty()) {
-			int size = move.size();
-			for (int s = 0; s < size; s++) {
-				cur = move.poll();
-				if (map[cur[0]][cur[1]] == '*') return 0;
-				for (int i = 0; i < 4; i++) {
-					int nr = cur[0]+dr[i], nc = cur[1]+dc[i];
-					if (map[nr][nc] == 0) return time;
-					else if (map[nr][nc] == '.' && !visit[nr][nc]) {
-						visit[nr][nc] = true;
-						move.add(new int[]{nr, nc});
-					}
-				}
-			}
-			size = fire.size();
+			int size = fire.size();
 			for (int s = 0; s < size; s++) {
 				cur = fire.poll();
 				for (int i = 0; i < 4; i++) {
@@ -58,6 +46,18 @@ public class 불 {
 					if (map[nr][nc] == '.') {
 						map[nr][nc] = '*';
 						fire.add(new int[]{nr, nc});
+					}
+				}
+			}
+			size = move.size();
+			for (int s = 0; s < size; s++) {
+				cur = move.poll();
+				for (int i = 0; i < 4; i++) {
+					int nr = cur[0]+dr[i], nc = cur[1]+dc[i];
+					if (map[nr][nc] == 0) return time;
+					else if (map[nr][nc] == '.' && !visit[nr][nc]) {
+						visit[nr][nc] = true;
+						move.add(new int[]{nr, nc});
 					}
 				}
 			}
