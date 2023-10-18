@@ -78,6 +78,8 @@
 ||| 3190 | [뱀](https://www.acmicpc.net/problem/3190) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
 |<b>Week 8-1</b></br>(23.10.16 ~ )| 최소 신장 트리 | 16398 | [행성 연결](https://www.acmicpc.net/problem/16398) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
 ||| 13418 | [학교 탐방하기](https://www.acmicpc.net/problem/13418) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
+|<b>Week 8-2</b></br>(23.10.19 ~ )| 다익스트라 알고리즘 | 1504 | [특정한 최단 경로](https://www.acmicpc.net/problem/1504) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
+||| 1238 | [파티](https://www.acmicpc.net/problem/1238) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
 
 
 
@@ -88,4 +90,5 @@
 |<b>Week 05</b> | [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369) | Level 2 |
 |<b>Week 06</b> | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971) | Level 2 |
 |<b>Week 07</b> | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) | Level 2 |
+|<b>Week 08</b> | [빛의 경로 사이클](https://school.programmers.co.kr/learn/courses/30/lessons/86052) | Level 2 |
 
