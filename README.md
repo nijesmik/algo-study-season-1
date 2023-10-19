@@ -77,7 +77,7 @@
 |<b>Week 7-2</b></br>(23.10.12 ~ )| 시뮬레이션 | 14503 | [로봇 청소기](https://www.acmicpc.net/problem/14503) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
 ||| 3190 | [뱀](https://www.acmicpc.net/problem/3190) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
 |<b>Week 8-1</b></br>(23.10.16 ~ )| 최소 신장 트리 | 16398 | [행성 연결](https://www.acmicpc.net/problem/16398) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
-||| 13418 | [학교 탐방하기](https://www.acmicpc.net/problem/13418) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
+||| 1774 | [우주신과의 교감](https://www.acmicpc.net/problem/1774) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
 |<b>Week 8-2</b></br>(23.10.19 ~ )| 다익스트라 알고리즘 | 1504 | [특정한 최단 경로](https://www.acmicpc.net/problem/1504) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
 ||| 1238 | [파티](https://www.acmicpc.net/problem/1238) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
 
