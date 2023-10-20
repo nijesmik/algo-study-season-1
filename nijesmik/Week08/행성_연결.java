@@ -23,11 +23,8 @@ public class 행성_연결 {
 		}
 		boolean[] visit = new boolean[n];
 		PriorityQueue<Node> q = new PriorityQueue<>();
-		for (int i = 0; i < n; i++) {
-			q.add(new Node(i, cost[0][i]));
-		}
-		visit[0] = true;
-		int cnt = 1;
+		q.add(new Node(0, 0));
+		int cnt = 0;
 		long total = 0;
 		while (cnt < n) {
 			Node cur = q.poll();
