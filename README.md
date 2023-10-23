@@ -80,6 +80,8 @@
 ||| 1774 | [우주신과의 교감](https://www.acmicpc.net/problem/1774) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
 |<b>Week 8-2</b></br>(23.10.19 ~ )| 다익스트라 알고리즘 | 1504 | [특정한 최단 경로](https://www.acmicpc.net/problem/1504) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
 ||| 1238 | [파티](https://www.acmicpc.net/problem/1238) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
+|<b>Week 9-1</b></br>(23.10.23 ~ )| 다이나믹 프로그래밍 | 15486 | [퇴사 2](https://www.acmicpc.net/problem/15486) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
+||| 10942 | [팰린드롬?](https://www.acmicpc.net/problem/10942) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
 
 
 
