@@ -82,6 +82,8 @@
 ||| 1238 | [파티](https://www.acmicpc.net/problem/1238) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
 |<b>Week 9-1</b></br>(23.10.23 ~ )| 다이나믹 프로그래밍 | 15486 | [퇴사 2](https://www.acmicpc.net/problem/15486) | <img src="https://static.solved.ac/tier_small/11.svg" height="25" align="center"/>|
 ||| 10942 | [팰린드롬?](https://www.acmicpc.net/problem/10942) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
+|<b>Week 9-2</b></br>(23.10.26 ~ )| 시뮬레이션 | 16236 | [아기 상어](https://www.acmicpc.net/problem/16236) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
+||| 19236 | [청소년 상어](https://www.acmicpc.net/problem/19236) | <img src="https://static.solved.ac/tier_small/14.svg" height="25" align="center"/>|
 
 
 
@@ -93,4 +95,5 @@
 |<b>Week 06</b> | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971) | Level 2 |
 |<b>Week 07</b> | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) | Level 2 |
 |<b>Week 08</b> | [빛의 경로 사이클](https://school.programmers.co.kr/learn/courses/30/lessons/86052) | Level 2 |
+|<b>Week 09</b> | [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890) | Level 2 |
 
