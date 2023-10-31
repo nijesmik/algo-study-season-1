@@ -97,4 +97,11 @@
 |<b>Week 07</b> | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) | Level 2 |
 |<b>Week 08</b> | [빛의 경로 사이클](https://school.programmers.co.kr/learn/courses/30/lessons/86052) | Level 2 |
 |<b>Week 09</b> | [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890) | Level 2 |
+|<b>Week 10</b> | [순위 검색](https://school.programmers.co.kr/learn/courses/30/lessons/72412) | Level 2 |
+| | [야근 지수](https://school.programmers.co.kr/learn/courses/30/lessons/12927) | Level 3 |
 
+
+## 📌 SWEA
+|| 문제 |
+|:-:|:-:|
+| <b>Week 10</b> |[수열 편집](https://swexpertacademy.com/main/code/codeBattle/problemDetail.do?contestProbId=AX5MBiQqAbQDFASv&categoryId=AYnnOdjq4TwDFARi&categoryType=BATTLE&battleMainPageIndex=1)|
