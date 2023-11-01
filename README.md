@@ -85,6 +85,8 @@
 ||| 10942 | [팰린드롬?](https://www.acmicpc.net/problem/10942) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
 |<b>Week 9-2</b></br>(23.10.26 ~ )| 시뮬레이션 | 16236 | [아기 상어](https://www.acmicpc.net/problem/16236) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
 ||| 19236 | [청소년 상어](https://www.acmicpc.net/problem/19236) | <img src="https://static.solved.ac/tier_small/14.svg" height="25" align="center"/>|
+|<b>Week 10</b></br>(23.10.30 ~ )| - | 2206 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | <img src="https://static.solved.ac/tier_small/13.svg" height="25" align="center"/>|
+||| 14002 | [가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002) | <img src="https://static.solved.ac/tier_small/12.svg" height="25" align="center"/>|
 
 
 
